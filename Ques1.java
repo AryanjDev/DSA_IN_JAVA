@@ -11,11 +11,13 @@ public class Ques1 {
         int A = sc.nextInt();
         int count = 0;
         for(int i = 1; i*i <= A; i++){
-            if(i*i == A){
+            if(A % i == 0){
+            if(i == A / i){
                 count = count + 1;
             } else {
                 count = count + 2;
             }
+        }
         }
         System.out.println(count);
     }
