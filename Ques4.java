@@ -20,7 +20,7 @@ public class Ques4 {
         return ans;
     }
     // Prefix Sum Approach
-    static long prefixsum(int[] A , int [] [] B){
+    static long[] prefixsum(int[] A , int [] [] B){
         int n = A.length; int m = B.length;
         long sum = 0;
         long [] prefix = new long[n];
@@ -40,6 +40,7 @@ public class Ques4 {
         return ans;
     }
     public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
 
     }
     
